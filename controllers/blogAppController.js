@@ -5,13 +5,16 @@ app.controller('blogAppController', ['$scope', function($scope) {
 }]);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-    $routeProvider.
-        when('/home',{
-        template:'<h1>Welcome page</h1>'
+    $routeProvider
+        .when('/home',{
+            templateUrl:'./templates/welcome.html',
+            controller: 'welcomeController'
+    }).when("/blog",{
+            templateUrl:'./templates/blogs/blog.html'
     }).when("/contact",{
-        templateUrl:'contact.html'
+            templateUrl:'./templates/contact.html'
     }).otherwise({
-        template:'<h2>Other pages</h2>'
+        templateUrl:'./templates/welcome.html'
     });
 
 

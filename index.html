@@ -6,6 +6,7 @@
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular/angular-route.min.js"></script>
     <script src="controllers/blogAppController.js"></script>
+    <script src="controllers/welcomeController.js"></script>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 </head>
 <body ng-controller="blogAppController">
@@ -19,22 +20,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home">Github Blog</a>
+                <a class="navbar-brand" href="#home">Hao's Blog</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li ><a href="#home">Welcome Page <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#home">Welcome<span class="sr-only">(current)</span></a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">1. First Article</a></li>
-                            <li><a href="#">2. Second Article</a></li>
+                            <li><a href="#blog">1. First Article</a></li>
+                            <li><a href="#blog">2. Second Article</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">1. First Album</a></li>
+                            <li><a href="#blog">1. First Album</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">1. First Video</a></li>
+                            <li><a href="#blog">1. First Video</a></li>
                         </ul>
                     </li>
                     <li><a href="#contact">Contact</a></li>
@@ -52,10 +53,6 @@
 </header>
 
 <div class="container">
-    <h1>{{message}}</h1>
-    <input ng-model="message">
-    <button type="button" class="btn btn-primary">Primary</button>
-
     <ng-view></ng-view>
 </div>
 
@@ -63,7 +60,7 @@
 <footer>
     <nav class="navbar navbar-default navbar-fixed-bottom container">
         <div class="row">
-            <h5 class="col-sm-4 col-sm-offset-8">Powered by AngularJS.</h5>
+            <h5 class="col-sm-4 col-sm-offset-8">Powered by <img src="images/angular.jpg" height="25px" >.</h5>
         </div>
     </nav>
 </footer>
