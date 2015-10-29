@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/controllers/blogAppController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.32042724">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -305,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="0" width="801" height="875" extended-state="5" />
+    <frame x="800" y="0" width="801" height="875" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18523154" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -386,7 +386,7 @@
     <entry file="file://$PROJECT_DIR$/controllers/blogAppController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32042724">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>

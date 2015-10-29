@@ -14,7 +14,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     }).when("/contact",{
             templateUrl:'./templates/contact.html'
     }).otherwise({
-        templateUrl:'./templates/blogs/blog.html'
+        redirectTo:'/home'
     });
 
 
