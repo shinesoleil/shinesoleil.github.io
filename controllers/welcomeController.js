@@ -1,5 +1,5 @@
-app.controller('welcomeController', ['$scope', function($scope) {
-    $scope.todoList = [
+app.controller('welcomeController', [function() {
+    this.todoList = [
         {"number": 1, "task": "write articles (of course....)"},
         {"number": 2, "task": "search box"},
         {"number": 3, "task": "contact page"},

@@ -1,14 +1,13 @@
 var app = angular.module('blogApp', ['ngRoute']);
 
-app.controller('blogAppController', ['$scope', function($scope) {
-    $scope.message = 'Hello World';
+app.controller('blogAppController', [function() {
 }]);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
         .when('/home',{
             templateUrl:'./templates/welcome.html',
-            controller: 'welcomeController'
+            controller: 'welcomeController as welcome'
     }).when("/blog",{
             templateUrl:'./templates/blogs/blog.html'
     }).when("/contact",{
@@ -16,6 +15,4 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     }).otherwise({
         redirectTo:'/home'
     });
-
-
 }]);
