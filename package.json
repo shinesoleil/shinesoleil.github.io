@@ -1,0 +1,22 @@
+{
+  "name": "shinesoleil.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinesoleil/shinesoleil.github.io.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/shinesoleil/shinesoleil.github.io/issues"
+  },
+  "devDependencies": {
+    "angular-marked": "~1.0.0",
+    "marked": "~0.3.5"
+  }
+}
